@@ -2,6 +2,14 @@
 
 This repository contains a collection of Python programs categorized by topic.
 
+## Assignment Questions
+
+- `buzz_number.py` - Buzz number
+- `counting_string.py` - Counting string
+- `firrst-non-repeating.py` - Firrst non repeating
+- `sqrt.py` - Sqrt
+- `sum_average.py` - Sum average
+
 ## Atm Machine
 
 - `atm-machine-task.py` - Atm machine task
@@ -46,6 +54,10 @@ This repository contains a collection of Python programs categorized by topic.
 - `reverse.py` - Reverse
 - `square.py` - Square
 
+## Lambda Functions
+
+- `main.py` - Main
+
 ## List Tuple Dict
 
 - `dict.py` - Dict
@@ -70,6 +82,10 @@ This repository contains a collection of Python programs categorized by topic.
 - `sum_of_even.py` - Printing the sum of even numbers from 1 to n using a for loop.
 - `sum_of_even_odd.py` - Calculating the sum of even and odd numbers from 1 to n using a for loop.
 - `sum_of_numbers.py` - Calculating the sum of numbers from 1 to n using a for loop.
+
+## Oops
+
+- `main.py` - Main
 
 ## Patterns
 
