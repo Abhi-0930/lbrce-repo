@@ -1,0 +1,200 @@
+body{
+    background-color: rgb(247, 250, 252);
+    color: rgb(67, 65, 65);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input{
+    border: none;
+    outline: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+form select{
+    border: none;
+    outline: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* Personal Information */
+
+.personal-information{
+    background-color: rgb(168, 163, 163); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.personal-information h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.personal-information label{
+    font-weight: 500;
+}
+
+.field-info{
+    line-height: 3;
+}
+
+/* Address Information */
+
+.address-information{
+    background-color: rgb(200, 231, 242); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.address-information h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.address-information label{
+    font-weight: 500;
+}
+
+/* Academic Information */
+
+.academic-information{
+    background-color: rgb(160, 238, 160); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.academic-information h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.academic-information label{
+    font-weight: 500;
+}
+
+/* Course Selection */
+    
+.course-selection{
+    background-color: rgb(255, 196, 204); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.course-selection h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.course-selection label{
+    font-weight: 500;
+}
+
+/* Skills and interests */
+
+.skills-and-interests{
+    background-color: rgb(120, 239, 197); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.skills-and-interests h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.skills-and-interests label{
+    font-weight: 500;
+}
+
+/* Additional Information */
+
+.additional-details{
+    background-color: rgb(232, 224, 151); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.additional-details h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.additional-details label{
+    font-weight: 500;
+}
+
+/* Declaration */
+.declaration{
+    background-color: rgb(188, 181, 171); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.declaration h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.declaration label{
+    font-weight: 500;
+}
+
+/* Form Controls */
+
+.form-controls{
+    background-color: rgb(149, 149, 149); 
+    max-width: 30%;
+    max-height: 100%;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.form-controls h4{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.form-controls input{
+    border: none;
+    outline: none;
+    padding: 18px;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.form-value{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

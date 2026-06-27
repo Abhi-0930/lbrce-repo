@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <center>
+        <h2>Student Registration Form</h2>
+    </center>
+  <form action="success.html" method="post">
+    <p>
+    <label>Full Name: </label>
+    <input type="text" placeholder="Your full name" required>
+    </p>
+    <p>
+        <label>Email: </label>
+        <input type="email" required>
+    </p>
+
+    <p>
+        <label >Password: </label>
+        <input type="password" minlength="8" maxlength="16">
+    </p>
+
+    <p>
+        <label>Enter your gender: </label>
+        <input type="radio" name="gender" >
+        <label>Male</label>
+        <input type="radio" name="gender" >
+        <label>Female</label>
+    </p>
+
+    <p>
+        <label>Mobile No: </label>
+        <input type="number" required>
+    </p>
+
+    <p>
+        <label>Upload Resume: </label> <br><br>
+        <input type="file" accept="application/pdf" required>
+    </p>
+
+    <p>
+        <label >Choose your department: </label>
+        <select>
+            <option value="">CSE</option>
+            <option value="">ECE</option>
+            <option value="">MECH</option>
+        </select>
+    </p>
+
+    <p>
+        <label>Choose your date and time: </label><br><br>
+        <input type="datetime-local">
+    </p>
+    <p>
+        <label>Address: </label>
+        <textarea cols="30" rows="10" placeholder="enter your address"></textarea>
+    </p>
+
+    <p>
+        <input type="checkbox" id="terms" required>
+        <label for="terms"> I agree to the terms and conditions</label>
+    </p>
+
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
